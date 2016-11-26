@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E4085441DEA4D380025BAC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4085431DEA4D380025BAC8 /* AppDelegate.swift */; };
+		1E4085491DEA4D380025BAC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E4085471DEA4D380025BAC8 /* Main.storyboard */; };
+		1E40854B1DEA4D380025BAC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E40854A1DEA4D380025BAC8 /* Assets.xcassets */; };
+		1E40854E1DEA4D380025BAC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E40854C1DEA4D380025BAC8 /* LaunchScreen.storyboard */; };
+		1E4085561DEA4D520025BAC8 /* Data.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1E4085551DEA4D520025BAC8 /* Data.txt */; };
+		1E4085581DEA50C70025BAC8 /* FrankenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4085571DEA50C70025BAC8 /* FrankenTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E4085401DEA4D380025BAC8 /* Frankentable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frankentable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E4085431DEA4D380025BAC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E4085481DEA4D380025BAC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E40854A1DEA4D380025BAC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E40854D1DEA4D380025BAC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E40854F1DEA4D380025BAC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E4085551DEA4D520025BAC8 /* Data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Data.txt; sourceTree = "<group>"; };
+		1E4085571DEA50C70025BAC8 /* FrankenTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrankenTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E40853D1DEA4D380025BAC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E4085371DEA4D380025BAC8 = {
+			isa = PBXGroup;
+			children = (
+				1E4085421DEA4D380025BAC8 /* Frankentable */,
+				1E4085411DEA4D380025BAC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E4085411DEA4D380025BAC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E4085401DEA4D380025BAC8 /* Frankentable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E4085421DEA4D380025BAC8 /* Frankentable */ = {
+			isa = PBXGroup;
+			children = (
+				1E4085431DEA4D380025BAC8 /* AppDelegate.swift */,
+				1E4085471DEA4D380025BAC8 /* Main.storyboard */,
+				1E4085571DEA50C70025BAC8 /* FrankenTableViewController.swift */,
+				1E40854A1DEA4D380025BAC8 /* Assets.xcassets */,
+				1E40854C1DEA4D380025BAC8 /* LaunchScreen.storyboard */,
+				1E40854F1DEA4D380025BAC8 /* Info.plist */,
+				1E4085551DEA4D520025BAC8 /* Data.txt */,
+			);
+			path = Frankentable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E40853F1DEA4D380025BAC8 /* Frankentable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E4085521DEA4D380025BAC8 /* Build configuration list for PBXNativeTarget "Frankentable" */;
+			buildPhases = (
+				1E40853C1DEA4D380025BAC8 /* Sources */,
+				1E40853D1DEA4D380025BAC8 /* Frameworks */,
+				1E40853E1DEA4D380025BAC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Frankentable;
+			productName = Frankentable;
+			productReference = 1E4085401DEA4D380025BAC8 /* Frankentable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E4085381DEA4D380025BAC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = C4Q;
+				TargetAttributes = {
+					1E40853F1DEA4D380025BAC8 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1E40853B1DEA4D380025BAC8 /* Build configuration list for PBXProject "Frankentable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E4085371DEA4D380025BAC8;
+			productRefGroup = 1E4085411DEA4D380025BAC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E40853F1DEA4D380025BAC8 /* Frankentable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E40853E1DEA4D380025BAC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E4085561DEA4D520025BAC8 /* Data.txt in Resources */,
+				1E40854E1DEA4D380025BAC8 /* LaunchScreen.storyboard in Resources */,
+				1E40854B1DEA4D380025BAC8 /* Assets.xcassets in Resources */,
+				1E4085491DEA4D380025BAC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E40853C1DEA4D380025BAC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E4085441DEA4D380025BAC8 /* AppDelegate.swift in Sources */,
+				1E4085581DEA50C70025BAC8 /* FrankenTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E4085471DEA4D380025BAC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E4085481DEA4D380025BAC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E40854C1DEA4D380025BAC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E40854D1DEA4D380025BAC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E4085501DEA4D380025BAC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E4085511DEA4D380025BAC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E4085531DEA4D380025BAC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Frankentable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.Frankentable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1E4085541DEA4D380025BAC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Frankentable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.Frankentable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E40853B1DEA4D380025BAC8 /* Build configuration list for PBXProject "Frankentable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E4085501DEA4D380025BAC8 /* Debug */,
+				1E4085511DEA4D380025BAC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E4085521DEA4D380025BAC8 /* Build configuration list for PBXNativeTarget "Frankentable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E4085531DEA4D380025BAC8 /* Debug */,
+				1E4085541DEA4D380025BAC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E4085381DEA4D380025BAC8 /* Project object */;
+}
